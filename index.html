@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Faça seu Login</h2>
+        <form action="login.php" method="POST" onsubmit="return validateForm()">
+            <input type="text" name="username" id="username" placeholder="Usuário" required>
+            <input type="password" name="password" id="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="ex31">Ex. 31 - Formulário de Login (DS3) + banco de dados</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
